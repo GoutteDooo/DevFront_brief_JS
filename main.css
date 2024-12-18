@@ -36,4 +36,8 @@ input {
 .window-slider .slides .slider-d {
   background: pink;
   opacity: 0;
+}
+
+.scored {
+  color: green;
 }/*# sourceMappingURL=main.css.map */
