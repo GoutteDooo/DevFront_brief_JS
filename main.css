@@ -1,0 +1,39 @@
+input {
+  margin: 20px 0 20px 20px;
+}
+
+.window-slider {
+  height: 400px;
+  width: 600px;
+  border: 5px solid black;
+  overflow: hidden;
+}
+.window-slider .slides {
+  position: relative;
+  background: red;
+  height: 100%;
+  width: 100%;
+  transition: 0.2s;
+}
+.window-slider .slides .slider-a, .window-slider .slides .slider-b, .window-slider .slides .slider-c, .window-slider .slides .slider-d {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+}
+.window-slider .slides .slider-a {
+  background: lightgreen;
+  opacity: 1;
+}
+.window-slider .slides .slider-b {
+  background: pink;
+  opacity: 0;
+}
+.window-slider .slides .slider-c {
+  background: lightgreen;
+  opacity: 0;
+}
+.window-slider .slides .slider-d {
+  background: pink;
+  opacity: 0;
+}/*# sourceMappingURL=main.css.map */
